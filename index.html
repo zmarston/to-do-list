@@ -15,20 +15,22 @@
         <div class="col-md-6">
           <form id="to-do-add">
             <div class="form-group">
-                <input type="text" class="form-conrtrol" id="todo-input" placeholder="To do here...">
+                <input type="text" class="form-conrtrol" id="task-input" placeholder="To do here...">
+                <input type="text" class="form-conrtrol" id="description-input" placeholder="Description here...">
+                <button type="submit" class="btn">Add to list</button>
             </div>
-            <button type="submit" class="btn">Add to list</button>
           </form>
+          <h2>Task List</h2>
+          <ul id="task-list">
+
+          </ul>
         </div>
         <div class="col-md-6">
-          <form id="to-do-list">
-            <div id="list-result">
-              <ul>
-
-              </ul>
-            </div>
+          <div id="show-task-description">
+            <p>Task: <span class="task"></span></p>
+            <p>Description: <span class="description"></span></p>
             <button type="submit" class="btn">Completed</button>
-          </form>
+          </div>
         </div>
       </div>
     </div>
