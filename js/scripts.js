@@ -23,5 +23,11 @@ $(function(){
       $(".task").text(newInput.task);
       $(".description").text(newInput.description);
     });
+
+    $("#complete-button").click(function() {
+      $(".todo-added").last().addClass("completed");
+      $("#remove").show();
+    });
+
   });
 });

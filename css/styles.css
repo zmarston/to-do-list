@@ -1,3 +1,17 @@
 #show-task-description {
   display: none;
 }
+
+#remove {
+  display: none;
+}
+.completed {
+  color: red;
+}
+li:hover {
+  text-decoration: underline;
+}
+li {
+  cursor: pointer;
+  color: #0088cc;
+}
